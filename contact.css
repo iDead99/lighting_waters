@@ -31,10 +31,15 @@ header{
     color: white;
     font-weight: bolder;
 }
+#main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 main{
+    width: 100%;
     overflow: hidden;
 }
-
 .nav-bar{
     background-color: black;
 }

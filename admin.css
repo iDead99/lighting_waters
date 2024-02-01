@@ -19,11 +19,14 @@ header{
     color: white;
     font-weight: bolder;
 }
+#main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 main{
-    /* position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+    width: 100%;
+    overflow: hidden;
 }
 #admin-text-container{
     display: flex;
