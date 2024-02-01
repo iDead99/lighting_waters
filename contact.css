@@ -77,6 +77,13 @@ nav a:hover{
 @keyframes motor-move {
     50%{color: rgb(66, 66, 66);}
 }
+#call-icon-container{
+    display: flex;
+    justify-content: center;
+}
+#call-icon img{
+    width: 3em;
+}
 #social-icon-container{
     display: flex;
     justify-content: center;
@@ -107,6 +114,9 @@ nav a:hover{
     }
     #contact-lbl{
         font-size: 38px;
+    }
+    #call-icon img{
+        width: 5em;
     }
     .social-icon{
         width: 5em;
@@ -154,6 +164,9 @@ nav a:hover{
     #contact-lbl{
         font-size: 55px;
     }
+    #call-icon img{
+        width: 8em;
+    }
     .social-icon{
         width: 8em;
     }
@@ -179,6 +192,9 @@ nav a:hover{
     }
     #contact-lbl{
         font-size: 100px;
+    }
+    #call-icon img{
+        width: 14em;
     }
     .social-icon{
         width: 14em;
