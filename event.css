@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 216, 216);
+}
+#site-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#site-logo{
+    width: 100%;
+    height: 10em;
+}
+header{
+    background-color: black;
+    text-align: center;
+    position: sticky;
+    top: 0%;
+}
+#site-name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 3px solid white; */
+}
+#site-name{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+main{
+    overflow: hidden;
+}
+
+.nav-bar{
+    background-color: black;
+}
+nav ul{
+    overflow: hidden;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    font-size: 90%;
+    padding: 10px;
+    float: left;
+    list-style-type: none;
+}
+nav a{
+    color: aqua;
+}
+nav a:hover{
+    color: rgb(191, 191, 191);
+}
+#motor-container{
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: black;
+}
+#motor-text{
+    color: rgb(146, 146, 255);
+    color: rgb(249, 249, 196);
+    animation: motor-move 3s infinite;
+}
+@keyframes motor-move {
+    50%{color: rgb(66, 66, 66);}
+}
+#alot-text-container{
+    display: flex;
+    justify-content: center;
+}
+#alot-text{
+   text-align: center;
+   color: rgb(131, 130, 130);
+}
+
+/* #footer-container{
+} */
+
+@media only screen and (min-width: 768px) {
+    #site-logo{
+        height: 20em;
+    }
+    #site-name{
+        font-size: 40px;
+    }
+    nav li{
+        font-size: 170%;
+    }
+    #motor-container{
+        height: 3em;
+        margin-bottom: 20px;
+    }
+    #motor-text{
+        font-size: 35px;
+    }
+    #alot-text{
+        font-size: 40px;
+    }
+    #event-lbl{
+        font-size: 38px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #site-logo{
+        height: 35em;
+    }
+    #site-name{
+        font-size: 55px;
+    }
+    nav li{
+        font-size: 170%;
+        margin-left: 10px;
+    }
+    #motor-container{
+        height: 3em;
+        margin-bottom: 20px;
+    }
+    #motor-text{
+        font-size: 35px;
+    }
+    
+}
+
+@media only screen and (min-width: 1440px) {
+    #site-logo{
+        height: 50em;
+    }
+    #site-name{
+        font-size: 75px;
+    }
+    nav li{
+        font-size: 250%;
+        margin-left: 30px;
+    }
+    #motor-container{
+        height: 4em;
+        margin-bottom: 30px;
+    }
+    #motor-text{
+        font-size: 55px;
+    }
+    #alot-text{
+        font-size: 60px;
+    }
+    #event-lbl{
+        font-size: 55px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    #site-logo{
+        height: 80em;
+    }
+    #site-name{
+        font-size: 150px;
+    }
+    nav li{
+        font-size: 550%;
+        margin-left: 60px;
+    }
+    #motor-container{
+        height: 10em;
+        margin-bottom: 60px;
+    }
+    #motor-text{
+        font-size: 110px;
+    }
+    #alot-text{
+        font-size: 120px;
+    }
+    #event-lbl{
+        font-size: 100px;
+    }
+}
