@@ -14,6 +14,13 @@ let readMore4=document.getElementById("read-more-btn4");
 let readMore5=document.getElementById("read-more-btn5");
 let readMore6=document.getElementById("read-more-btn6");
 
+let bannerImageContainer=document.getElementById("banner-image-container");
+let cut=document.getElementById("cut");
+
+cut.onclick=function(){
+    bannerImageContainer.style.display='none';
+}
+
 // clickReadMore(readMore1, contentContainer1);
 // clickReadMore(readMore2, contentContainer2);
 clickReadMore(readMore3, contentContainer3);

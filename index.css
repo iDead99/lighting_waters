@@ -79,6 +79,36 @@ main{
     margin: 10px;
     border-radius: 10px;
 }
+#banner-image-container{
+    margin: 5px;
+    /* border: 2px solid gray; */
+    position: fixed;
+    bottom: 0px;
+}
+#cut-container{
+    display: flex;
+    justify-content: center;
+}
+#cut{
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
+#banner-image{
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    animation: banner-move 3s infinite;
+}
+@keyframes banner-move {
+    50%{transform: scale(1.1, 1.1);}
+}
 .nav-bar{
     background-color: black;
 }
@@ -186,6 +216,19 @@ nav a:hover{
         margin: 10px;
         border-radius: 15px;
     }
+    #banner-image-container{
+        margin-left: 50px;
+    }
+    #cut{
+        font-size: 25px;
+        margin-bottom: 15px;
+        width: 30px;
+        height: 30px;
+        border: 2px solid black;
+    }
+    #banner-image{
+        width: 200px;
+    }
     .foot{
         font-size: 30px;
         margin-top: 10px;
@@ -262,6 +305,21 @@ nav a:hover{
         margin: 20px;
         border-radius: 20px;
     }
+    #banner-image-container{
+        margin-left: 90px;
+    }
+    #cut{
+        font-size: 45px;
+        margin-bottom: 25px;
+        width: 50px;
+        height: 50px;
+        border: 2px solid black;
+    }
+    #banner-image{
+        width: 360px;
+        border-radius: 20px;
+        border: 2px solid black;
+    }
     .foot{
         font-size: 45px;
         margin-top: 10px;
@@ -308,6 +366,21 @@ nav a:hover{
         height: auto;
         margin: 20px;
         border-radius: 40px;
+    }
+    #banner-image-container{
+        margin-left: 120px;
+    }
+    #cut{
+        font-size: 95px;
+        margin-bottom: 50px;
+        width: 100px;
+        height: 100px;
+        border: 5px solid black;
+    }
+    #banner-image{
+        width: 670px;
+        border-radius: 40px;
+        border: 3px solid black;
     }
     .foot{
         font-size: 95px;

@@ -78,6 +78,35 @@ nav a:hover{
 @keyframes motor-move {
     50%{color: rgb(66, 66, 66);}
 }
+#banner-image-container{
+    border: 2px solid rgb(151, 151, 151);
+    border-radius: 10px;
+    margin: 5px;
+    height: 200px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(57, 57, 57);
+}
+.content-container{
+    /* border: 2px solid black; */
+    margin: 5px;
+    height: auto;
+    overflow: auto;
+    border-radius: 10px;
+}
+#content{
+    font-size: 15px;
+    margin: 5px;
+    color: white;
+}
+.all-image{
+    width: 140px;
+    height: auto;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
 #alot-text-container{
     display: flex;
     justify-content: center;
@@ -89,7 +118,30 @@ nav a:hover{
 
 /* #footer-container{
 } */
-
+@media only screen and (min-width: 768px){
+    #banner-image-container{
+        height: 300px;
+    }
+    .content-container{
+        /* border: 2px solid black; */
+        margin: 5px;
+        height: auto;
+        overflow: auto;
+        border-radius: 10px;
+    }
+    #content{
+        font-size: 15px;
+        margin: 5px;
+        color: white;
+    }
+    .all-image{
+        width: 200%;
+        /* height: auto; */
+        margin: 5px;
+        border-radius: 10px;
+        border: 2px solid white;
+    }
+}
 @media only screen and (min-width: 768px) {
     #site-logo{
         height: 20em;
@@ -106,6 +158,29 @@ nav a:hover{
     }
     #motor-text{
         font-size: 35px;
+    }
+    #banner-image-container{
+        border: 2px solid rgb(151, 151, 151);
+        border-radius: 10px;
+        margin: 25px;
+        height: 450px;
+    }
+    .content-container{
+        margin: 10px;
+        height: auto;
+        overflow: auto;
+        border-radius: 10px;
+    }
+    #content{
+        font-size: 26px;
+        margin: 5px;
+        color: white;
+    }
+    .all-image{
+        width: 320px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 2px solid white;
     }
     #alot-text{
         font-size: 40px;
@@ -132,6 +207,29 @@ nav a:hover{
     }
     #motor-text{
         font-size: 35px;
+    }
+    #banner-image-container{
+        border: 2px solid rgb(151, 151, 151);
+        border-radius: 15px;
+        margin: 80px;
+        height: 450px;
+    }
+    .content-container{
+        margin: 10px;
+        overflow: auto;
+        border-radius: 10px;
+    }
+    #content{
+        font-size: 30px;
+        margin: 10px;
+        color: white;
+    }
+    .all-image{
+        width: 320px;
+        margin: 10px;
+        /* margin-left: 50px; */
+        border-radius: 10px;
+        border: 2px solid white;
     }
     
 }
@@ -160,6 +258,29 @@ nav a:hover{
     #event-lbl{
         font-size: 55px;
     }
+    #banner-image-container{
+        border: 2px solid rgb(151, 151, 151);
+        border-radius: 15px;
+        margin: 80px;
+        height: 560px;
+    }
+    .content-container{
+        margin: 10px;
+        overflow: auto;
+        border-radius: 10px;
+    }
+    #content{
+        font-size: 45px;
+        margin: 10px;
+        color: white;
+    }
+    .all-image{
+        width: 400px;
+        margin: 10px;
+        /* margin-left: 50px; */
+        border-radius: 10px;
+        border: 2px solid white;
+    }
 }
 
 @media only screen and (min-width: 2560px) {
@@ -185,5 +306,28 @@ nav a:hover{
     }
     #event-lbl{
         font-size: 100px;
+    }
+    #banner-image-container{
+        border: 2px solid rgb(151, 151, 151);
+        border-radius: 35px;
+        margin: 150px;
+        height: 1100px;
+    }
+    .content-container{
+        margin: 10px;
+        overflow: auto;
+        border-radius: 10px;
+    }
+    #content{
+        font-size: 85px;
+        margin: 20px;
+        color: white;
+    }
+    .all-image{
+        width: 790px;
+        margin: 20px;
+        /* margin-left: 50px; */
+        border-radius: 10px;
+        border: 2px solid white;
     }
 }
